@@ -26,3 +26,7 @@ class TestData:
     BASE_URL = "https://qa-scooter.praktikum-services.ru/"
     ORDER_URL = "https://qa-scooter.praktikum-services.ru/order"
 
+class Urls:
+    DZEN_URL_REDIRECT = "https://dzen.ru/?yredirect=true"
+    BASE_URL = "https://qa-scooter.praktikum-services.ru/"
+    ORDER_URL = "https://qa-scooter.praktikum-services.ru/order"
