@@ -17,6 +17,6 @@ class OrderPageLocators:
     INPUT_COMMENT = (By.XPATH, "//input[@placeholder='Комментарий для курьера']") # поле Комментарий для курьера
     BUTTON_COLOR_1 = (By.XPATH, "//input[@id='black']") # в поле Цвет самоката: чёрный жемчуг
     BUTTON_COLOR_2 = (By.XPATH, "//input[@id='grey']") # в поле Цвет самоката: серая безысходность
-    BUTTON_SUBMIT = (By.XPATH, "//button[@class='Button_Button__ra12g Button_Middle__1CSJM']") #
+    BUTTON_SUBMIT = (By.XPATH, "//button[@class='Button_Button__ra12g Button_Middle__1CSJM']") # Кнопка Заказать после заполнения формы
     BUTTON_YES = (By.XPATH, "//button[contains(text(),'Да')]") # кнопка Заказать
     TEXT_ORDER_CONFIRMED = (By.XPATH, "//div[contains(text(),'Заказ оформлен')]") # в модальном окне "Хотите оформить заказ?" кнопка Да

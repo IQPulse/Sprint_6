@@ -6,4 +6,5 @@ class MainPageLocators:
     ANSWER_LOCATOR = (By.CSS_SELECTOR, 'div[id="accordion__panel-{}"] p') # ответ
     MAIN_PAGE_TEXT = (By.XPATH, "//div[@class='Home_Header__iJKdX']") # текст ответа
     MAIN_PAGE_COOKIE_BUTTON = (By.XPATH, "//button[@id='rcc-confirm-button']") # кнопка "да все привыкли"
-    BUTTON_ORDER_DOWN = (By.XPATH, "//button[@class='Button_Button__ra12g Button_UltraBig__UU3Lp']")  # кнопка Заказать нижняя
+    BUTTON_ORDER_DOWN_MIDDLE = (By.XPATH, "//button[@class='Button_Button__ra12g Button_Middle__1CSJM']")  # кнопка Заказать нижняя Middle
+    BUTTON_ORDER_DOWN_BIG = (By.XPATH, "//button[@class='Button_Button__ra12g Button_UltraBig__UU3Lp']")  # кнопка Заказать нижняя UltraBig

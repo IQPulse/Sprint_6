@@ -19,7 +19,13 @@ class OrderPage(BasePage):
         self.driver.find_element(*HeadersLocators.BUTTON_ORDER_UP).click()
 
     def click_order_button_down(self):
-        self.driver.find_element(*MainPageLocators.BUTTON_ORDER_DOWN).click()
+        #self.driver.find_element(*MainPageLocators.BUTTON_ORDER_DOWN).click()
+
+        try:
+            button1 = self.driver.find_element(*MainPageLocators.BUTTON_ORDER_DOWN_BIG).click()
+
+        except NoSuchElementException:
+            button2 = self.driver.find_element(*MainPageLocators.BUTTON_ORDER_DOWN_MIDDLE).click()
 
     def input_name(self, name):
         self.driver.find_element(*OrderPageLocators.INPUT_NAME).send_keys(name)
